@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>BMI Kalkulator</h1>
+        <div class="visina">
+            <h3>Visina(cm): </h4>
+            <input type="number" id="visina">
+        </div>
+        <div class="tezina">
+            <h3>Težina(kg): </h4>
+            <input type="number" id="tezina">
+        </div>
+        <div class="izracunaj">
+            <button onclick="izracunajBMI()">Izračunaj BMI</button>
+        </div>
+        <div class="rezultat">
+            <h4 id="rezultat">VAš BMI indeks je: </h4>
+        </div>
+        <div class="kategorizacija">
+            <h4 id="kategorizacija">Kategorizacija: </h4>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
